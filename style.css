@@ -77,7 +77,7 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #00dcf5;
     border-radius: 10px;
 }
 
@@ -95,6 +95,7 @@ nav a:hover{
 .productos h2{
     font-size: 30px;
     font-weight: bold;
+    color: #fcfcfc;
 }
 
 .productos li:hover h2{
@@ -102,13 +103,12 @@ nav a:hover{
    
 }
 
-
 .producto-descripcion:hover{
     cursor: pointer;
     display: inline-block;
     text-align: center;
     white-space: nowrap;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.17648;
     font-weight: 400;
     letter-spacing: -.022em;
@@ -117,11 +117,17 @@ nav a:hover{
     padding: 7px 15px;
     border-radius: 980px;
     background: #0071e3;
-    color: #fff;
+    color: #fafafa;
     border: 1px solid transparent;
     --sk-button-margin-horizontal: 14px;
     --sk-button-margin-vertical: 14px;
 }
+
+.main_IA{
+    background: #000000; 
+}
+
+
 
 
 
@@ -150,7 +156,7 @@ nav a:hover{
 
 footer{
     text-align: center;
-    background: url(https://ammitechnologies.com/wp-content/uploads/2022/08/motherboard-circuit-technology-background-in-gradient-blue-930x620.jpg);
+    background: url(imagenes/circuitos.jpg);
     padding:40px;
 }
 
