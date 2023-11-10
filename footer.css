@@ -1,0 +1,16 @@
+footer{
+    text-align: center;
+    background: url(https://www.stampaprint.net/es/blog/wp-content/uploads/2016/05/gif-animados-ejemplo.gif)   
+    repeat;
+
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+.Imagen_final{
+    width: 20%;
+}

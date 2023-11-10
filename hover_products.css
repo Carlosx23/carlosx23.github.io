@@ -1,0 +1,70 @@
+.Hover_contener{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding-block-end: 10%;
+    padding-block-start: 5%;
+}
+
+.Hover_contener figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0,0,0, 0.50);
+    cursor: pointer;
+}   
+
+.Hover_contener figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+
+}
+
+.Hover_contener figure .hover_capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 103, 123,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+
+
+.Hover_contener figure:hover > .hover_capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.Hover_contener figure:hover > .hover_capa h3{
+   margin-top: 70px;
+   margin-bottom: 10px;
+}
+
+
+.Hover_contener figure .hover_capa h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition:all 500ms ease-out; 
+  margin-top: 30px;
+}
+
+.Hover_contener figure .hover_capa h3 {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

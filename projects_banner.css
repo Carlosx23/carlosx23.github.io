@@ -1,0 +1,66 @@
+.banner{
+    position: relative;
+}
+
+#Content_itemcarousel{
+    border: 5px solid black;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+
+.Projetcs_carousel{
+   
+    height:100%;
+    flex: auto;
+    position: relative;
+}
+.cards_carousel{
+  
+    height: 100%;
+   
+}
+
+.arrows_carousel{
+    
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+#cards_carousel-1{
+    background-color: blueviolet;
+}
+
+#cards_carousel-2{
+    background-color: rgb(43, 144, 226);
+    }
+
+#cards_carousel-3{
+        background-color: rgb(226, 98, 43);
+}
+
+.flecha_carousel{
+    width: 40px;
+    height: 40px;
+   justify-content: space-between;
+}
+
+.flecha_carousel-l{
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    transform: rotate(180deg);
+ }
+ 
+.img_carousel{
+    height: 400px;
+    width: 100%;
+}

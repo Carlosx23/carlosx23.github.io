@@ -1,0 +1,104 @@
+.about_me{
+    padding: 2.5rem;
+    background: url('https://images.askmen.com/news/power_money/_1486400184.gif') 100% 100%
+    repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+.about_me__bg-1{
+    font-size: 3.1875rem;
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+ }
+ 
+ .about_me__title {
+  
+   color: transparent;
+   
+   -moz-text-stroke-width: 2px;
+   -webkit-text-stroke-width: 2px;
+   -moz-text-stroke-color: #fc0a7f;
+   -webkit-text-stroke-color: #000000f5;
+ }
+ 
+ .about_me__title {
+    text-align: center;
+   text-shadow: 7px 7px #0ca6d5;
+ }
+.about_me__information{
+    color: black;
+    font-size: 1.75rem;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+/* Style for the unordered list */
+.about_me__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.about_me__item {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 1.75rem;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.text-box {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about_me__text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.about_me__item::before {
+    content: "\2022"; /* Bullet character */
+    color: #FF5733; /* Bullet color */
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+
+.about_me__final{
+    color: black;
+    font-size: 1.75rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px; /* Redondear los bordes */
+}
+.image-container img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    transition: transform 0.5s;
+    border-radius: 10px; /* Redondear los bordes */
+}
+.image-container:hover img {
+    transform: scale(1.2);
+}
