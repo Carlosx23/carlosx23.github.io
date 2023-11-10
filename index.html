@@ -1,97 +1,163 @@
 <!DOCTYPE html>
-
 <html lang="es">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width"> 
-        <title>CV</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="./assets/css/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/header.css" rel="stylesheet" />
+    <link href="./assets/css/menu.css" rel="stylesheet" />
+    <link href="./assets/css/logo_o_imagen.css" rel="stylesheet" />
+    <link href="./assets/css/banner.css" rel="stylesheet" />
+    <link href="./assets/css/about_me.css" rel="stylesheet" />
+    <link href="./assets/css/projects.css" rel="stylesheet" />
+    <link href="./assets/css/footer.css" rel="stylesheet" />
+    <link href="./assets/css/hover_products.css" rel="stylesheet" />
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet" />
 
-    <body>
-        <header>
-            <div class="caja">
-                <h1><a href="index.html"><img class ="logo" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGjPH8uEIr_rfI8JzATKSSM0sJzcmJApdmbObtc-NVhJyiTK5g"></a> </h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contacto.html">Certificates</a></li>
-                    </ul>
-                </nav>
+
+</head>
+
+
+<header class="header">
+    <div class="bg-6">
+        <div class="glitch" data-text="CV">CV</div>
+    </div>
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="X-icon"></i>
+    </label>
+
+    <nav class="menu">
+        
+            <a class="menu__link" href="index.html" style="--i:0;">Home </a>
+            <a class="menu__link" href="projects.html" style="--i:0;">projects</a>
+           <a class="menu__link" href="#" style="--i:0;">Contact</a>
+        
+    </nav>
+    
+    
+</header>
+<section class="banner">
+    <div style="position: relative; width: 100%; height: 0; padding-top: 56.3415%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFzvLnRB2g&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+</section>
+<section class="about_me">
+    <div class="about_me__bg-1">
+        <h1 class="about_me__title">ABOUT ME</h1>
+     </div>
+     <div class="text-box">
+        <p class="about_me__text"> <p>I am a<strong>Robotics Engineering student at CUCEI</strong>with a robust academic background and a passion for developing cutting-edge technologies. My expertise lies in Robotics Engineering and programming with AI, specifically in the area of object detection. I have a proven ability to design, construct, and program robotic systems with a focus on enhancing automation and efficiency. Committed to remaining updated with the latest advancements in the field, I aim to apply these developments to real-world challenges effectively.</p>
+        <br><p>I possess excellent problem-solving abilities and foster a collaborative mindset, enabling me to make valuable contributions to multidisciplinary teams. My project experience includes Robotics Systems Design, Robot Programming utilizing languages such as ROS, Python, and C++, as well as proficiency in Kinematics and Dynamics of Robotic Systems, Motion Planning and Control, Machine Learning and Artificial Intelligence, Computer Vision and Image Processing, 3D Modeling and Simulation (MATLAB), Electrical and Electronic Circuit Design, Project Management, and Team Collaboration.</p>
+        </p>
+    </div>
+    <div class="Hover_contener">
+        <figure>
+            <img src="https://0grados.com/admin/wp-content/uploads/2017/08/Desarrollo-de-las-Soft-Skills-Revista-Cero-Grados-2.jpg" alt="">
+            <div class="hover_capa">
+                <h3>Soft skills</h3>
+                
+                <ul>
+                    <li>Self-taught</li>
+                    <li>Good leadership</li>
+                    <li>Teamwork</li>
+                    <li>Time management</li>
+                    <li>Design thinking methods</li>
+                    <li>Scrum methodology</li>
+                    <li>Effective communication</li>
+                    <li>Problem-solving</li>
+                   
+                </ul>
             </div>
-        </header>
-
-        <img class="banner" src="https://krear3d.com/wp-content/uploads/2019/09/brazo-robotico.gif">
-        
-        <main>
-            <section class="principal">
-
-                <h2 class="titulo-principal">ABOUT ME</h2>
-
-                <img class="Robot_pickup"  src="https://laughingsquid.com/wp-content/uploads/2018/10/Tea-Robot-Tea-Leaves.gif" alt="robot delivering tea.">
     
-                <p>I am a<strong>Robotics Engineering student at CUCEI </strong> with a strong academic background and a passion for developing cutting-edge technologies. My expertise lies in Robotics Engineering, programming with AI, and object detection. I have a demonstrated ability to design, build, and program robotic systems with a focus on enhancing automation and efficiency. I am committed to staying up-to-date with the latest advancements in the field and applying them to real-world challenges.</p>
-                <p>I possess excellent problem-solving abilities and a collaborative mindset, allowing me to contribute effectively to multidisciplinary teams. My project experience includes Robotics Systems Design, Robot Programming (ROS, Python, C++), Kinematics and Dynamics of Robotic Systems, Motion Planning and Control, Machine Learning and Artificial Intelligence, Computer Vision and Image Processing, 3D Modeling and Simulation (MATLAB), Electrical and Electronic Circuit Design, Project Management, and Team Collaboration.</p>
+        </figure>
+
+        <figure>
+            <img src="https://en.idei.club/uploads/posts/2023-06/1686321194_en-idei-club-p-programing-language-dizain-1.jpg" alt="">
+            <div class="hover_capa">
+                <h3>Hard skills</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>And more...</li>
+                </ul>
+
+            </div>
+        </figure>
+    </div>
+
+   
+</section>
+<section class="projects">
     
-                <p id="Projects_in_aboutme"><em><strong>Some notable projects I have worked on include:</strong>.</em></p>
+    <div class="projects__container">
+        <div class="bg-1">
+            <h1 class="t-stroke t-shadow">PROJECTS</h1>
+         </div>
+        <p class="projects__information">
+            Here are the main areas of focus for some of my projects in AI, Robotics and Artificial Vision, as you can see below:       
+        </p>
     
-                <li>Hand detection and representation of movement with the mouse.</li>
-                <li>Object separator based on the object's color.</li>
-                <li>Detection of objects using RGB.</li>
-                <li>Sumo robot.</li>
-                <li>Detection of objects using AI.</li>
-                <li>chatbot</li>
-                <li>AI controlator for Robotics</li>
-                
-                <br><p>I am eager to continue expanding my skills and knowledge in Robotics Engineering, particularly in the areas of AI, object detection, and automation. I am driven to apply my expertise to solve complex challenges and contribute to the advancement of robotics technology.</p></em>
+        <div class="projects__card">
+            <div class="projects__imgBx">
+                <img src="https://gifdb.com/images/high/ai-humanoid-automation-zb3dt1s0n11ucfwb.gif" alt="">
+            </div>
+            <div class="projects__content">
+                <span class="projects__price">
+                    <a href="">IA</a>
+                </span>
+                <ul>
+                    <p>By clicking here, you'll be able to see my work with various methods of implementing AI.</p>
+                </ul>
+            </div>
+        </div>
+        <div class="projects__card">
 
-                
-    
-            </section>
-
-            <section class="mapa">
-                <h3 class="titulo-principal">MY UNIVERSITY</h3>
-                <p>This is the location of the cucei</p>
-
-                <div class="mapa-contenido">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14933.446559185353!2d-103.3254497!3d20.6548611!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b23a9bbba80d%3A0xdacdb7fd592feb90!2sCentro%20Universitario%20de%20Ciencias%20Exactas%20e%20Ingenier%C3%ADas!5e0!3m2!1ses!2smx!4v1688511127337!5m2!1ses!2smx" width="940" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-
-
-            </section>
-            
-            <section class="diferenciales">
-    
-                <h3 class="titulo-principal">PROJECTS</h3>
-            
-                <div class="contenido-diferenciales">
-                    <ul class="lista-diferenciales">
-                        <li class="items">Hand detection and representation of movement with the mouse.</li>
-                        <li class="items">Object separator based on the object's color.</li>
-                        <li class="items">Detection of objects using RGB.</li>
-                        <li class="items">Sumo robot.</li>
-                        <li class="items">Chatbot</li>
-                        <li class="items">AI controlator for Robotics</li>
-                    </ul><img src="https://images.wsj.net/im-568211" class="imagen-diferenciales">
-                </div>
-                <div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LJ5fr_NCAxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                
-            </section>
-
-
-            
-        </main>
-        
-        <footer>
-            <img src="https://ygo-assets-websites-legacy.yougov.net/cumulus_uploads/entry/2023-05-11/ai-technology-microchip-background-digital-tran.original.jpg?w=660"  class="Imagen_final">
-            <p class="copyright">&copy Copyright</p>
-        </footer>
-        
-    </body>
-</html>
+           
+            <div class="projects__imgBx">
+                <img src="https://i.imgur.com/v6SNRTt.gif?1" alt="">
+            </div>
+            <div class="projects__content">
+                <span class="projects__price">
+                    <a href="">Robotics </a>
+                </span>
+                <ul>
+                    <p>By clicking here, you'll be able to see my work with different robots and control methods.</p>
+                </ul>
+            </div>
+        </div>
+        <div class="projects__card">
+            <div class="projects__imgBx">
+                <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/fa38531-4c77-dc84-3045-3840b6c31_ezgif.com-gif-maker_copy.gif" alt="">
+            </div>
+            <div class="projects__content">
+                <span class="projects__price">
+                    <a href="">Vision </a>
+                </span>
+                <ul>
+                    <p>By clicking here, you'll be able to see my work with vision artificial </p>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer>
+        <img src="https://ts2.space/wp-content/uploads/2023/05/mfrack_realistic_photo_of_robotic_automatization_high_resolutio_fc8b1fcb-e96b-4c0d-9f0f-c1e285ed2d38.jpeg"  class="Imagen_final">
+        <p class="copyright">&copy Copyright</p>
+    </footer>
+</body>
