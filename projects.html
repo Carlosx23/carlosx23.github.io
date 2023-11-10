@@ -1,53 +1,154 @@
 <!DOCTYPE html>
+<html lang="es">
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>PROJECTS - CV</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <div class="caja">
-                <h1><a href="index.html"><img class ="logo" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGjPH8uEIr_rfI8JzATKSSM0sJzcmJApdmbObtc-NVhJyiTK5g"></a> </h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="projects.html">PROJECTS</a></li>
-                        <li><a href="contacto.html">CERTIFICATES</a></li>
-                    </ul>
-                </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv - Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="./assets/css/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/header.css" rel="stylesheet" />
+    <link href="./assets/css/menu.css" rel="stylesheet" />
+    <link href="./assets/css/logo_o_imagen.css" rel="stylesheet" />
+    <link href="./assets/css/projects_banner.css" rel="stylesheet" />
+    <link href="./assets/css/about_me.css" rel="stylesheet" />
+    <link href="./assets/css/projects.css" rel="stylesheet" />
+    <link href="./assets/css/footer.css" rel="stylesheet" />
+    <link href="./assets/css/hover_products.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet" />
+
+
+    <header class="header">
+        <div class="bg-6">
+            <div class="glitch" data-text="ENIGMA">ENIGMA</div>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="X-icon"></i>
+        </label>
+    
+        <nav class="menu">
+            
+                <a class="menu__link" href="index.html" style="--i:0;">Home </a>
+                <a class="menu__link" href="projects.html" style="--i:0;">projects</a>
+               <a class="menu__link" href="#" style="--i:0;">Contact</a>
+            
+        </nav>
+    </header>
+
+
+<body>
+    <div id = "Content_itemcarousel">
+        <div class = "Projetcs_carousel" id = "Projetc_carousel-1">
+            <div  class = "cards_carousel" id = "cards_carousel-1"> 
+                <img class="img_carousel" src="https://images.adsttc.com/media/images/5bb6/326a/f197/cc28/0e00/0013/original/66eb58a5517fdc1db4baba28d1068bb0.gif?1538667111" alt="">
             </div>
-        </header>
+            <div  class = "arrows_carousel" id="arrow_carousel-1">
+                <a href="#Projetc_carousel-3">
+                    <i><img class="flecha_carousel-l" src="https://cdn-icons-png.flaticon.com/512/3248/3248095.png" alt=""></i>
+                </a>
+                <a href="#Projetc_carousel-2">
+                    <i> <img class="flecha_carousel" src="https://cdn-icons-png.flaticon.com/512/3248/3248095.png" alt=""></i>
+                </a>
+            </div>
+        </div>
+        <div class = "Projetcs_carousel"  id = "Projetc_carousel-2">
+            <div  class = "cards_carousel" id = "cards_carousel-2"> 
+                <img class="img_carousel" src="https://i.pinimg.com/originals/c7/9a/cd/c79acd24f97ddb9ec4d8f1f6d9ba1236.gif" alt="">
+            </div>
+            <div  class = "arrows_carousel" id="arrow_carousel-2">
+                <a href="#Projetc_carousel-1">
+                    <i><img class="flecha_carousel-l" src="https://cdn-icons-png.flaticon.com/512/3248/3248095.png" alt=""></i>
+                </a>
+                <a href="#Projetc_carousel-3">
+                    <i> <img class="flecha_carousel" src="https://cdn-icons-png.flaticon.com/512/3248/3248095.png" alt=""></i>
+                </a>
+            </div>
+        </div>
+        <div class = "Projetcs_carousel"  id = "Projetc_carousel-3">
+            <div  class = "cards_carousel" id = "cards_carousel-3"> 
+                <img class="img_carousel" src="https://img.huffingtonpost.es/uploads/2022/12/08/63920a9f91f0d.gif" alt="">
+            </div>
+            <div  class = "arrows_carousel" id="arrow_carousel-3">
+                <a href="#Projetc_carousel-2">
+                    <i><img class="flecha_carousel-l" src="https://cdn-icons-png.flaticon.com/512/3248/3248095.png" alt=""></i>
+                </a>
+                <a href="#Projetc_carousel-1">
+                    <i> <img class="flecha_carousel" src="https://cdn-icons-png.flaticon.com/512/3248/3248095.png" alt=""></i>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
-        <main class="main_IA">
-            <ul class="productos">
-                <li>
-                    <h2>IA Projects</h2>
-                    <a class = paginaIA_boton  href="IA.html"><img class = git_ia src="https://gifdb.com/images/high/ai-humanoid-automation-zb3dt1s0n11ucfwb.gif"></a > 
-                    <p></p> 
-                    <a class="producto-descripcion"  href="IA.html">Click to enter jobs </a>
-                </li>
-                <li>
-                    <h2>Robotics Projects</h2>
-                    <a class = paginaIA_boton  href="IA.html"><img class = gif_robotica src="https://comofuncionaque.com/wp-content/uploads/cfq/2015/09/atlas-robot-darpa.gif"></a >
-                    <p></p>
-                    <a class="producto-descripcion"  href="IA.html">Click to enter jobs </a>
-                </li>
-                <li>
-                    <h2>Control Projects</h2>
-                    <a class = paginaIA_boton  href="IA.html"><img class = git_control src="https://thumbs.gfycat.com/LavishScholarlyBernesemountaindog-max-1mb.gif"></a >
-                    <p></p>
-                    <a class="producto-descripcion"  href="IA.html">Click to enter jobs </a>
-                </li>
-            </ul>
-        </main>
+    <div class="Hover_contener">
+        <figure>
+            <img src="https://www.roc21.com/blog/wp-content/uploads/2013/02/dibujos-de-caricaturas-infantiles-cuatro.jpg" alt="">
+            <div class="hover_capa">
+                <h3>Carricaturas</h3>
+                <p>Haz de tu chamarra un estio unico, con la caricatura que mas ames en este mundo, nosotros haremos tu sueño realidad</p>
+                
+            </div>
+    
+        </figure>
 
-        <footer>
-            <img src="https://ygo-assets-websites-legacy.yougov.net/cumulus_uploads/entry/2023-05-11/ai-technology-microchip-background-digital-tran.original.jpg?w=660"  class="Imagen_final">
-            <p class="copyright">&copy Copyright </p>
-        </footer>
-    </body>
-</html>
+        <figure>
+            <img src="https://nupcias.mx/wp-content/uploads/2020/04/CfOwFM7W8AAuFiR.jpg" alt="">
+            <div class="hover_capa">
+                <h3>Carricaturas</h3>
+                <p>Haz de tu chamarra un estio unico, con la caricatura que mas ames en este mundo, nosotros haremos tu sueño realidad</p>
+                
+            </div>
+    
+        </figure>
+        <figure>
+            <img src="https://nupcias.mx/wp-content/uploads/2020/04/CfOwFM7W8AAuFiR.jpg" alt="">
+            <div class="hover_capa">
+                <h3>Carricaturas</h3>
+                <p>Haz de tu chamarra un estio unico, con la caricatura que mas ames en este mundo, nosotros haremos tu sueño realidad</p>
+                
+            </div>
+    
+        </figure>
+        <figure>
+            <img src="https://nupcias.mx/wp-content/uploads/2020/04/CfOwFM7W8AAuFiR.jpg" alt="">
+            <div class="hover_capa">
+                <h3>Carricaturas</h3>
+                <p>Haz de tu chamarra un estio unico, con la caricatura que mas ames en este mundo, nosotros haremos tu sueño realidad</p>
+                
+            </div>
+    
+        </figure>
+        <figure>
+            <img src="https://nupcias.mx/wp-content/uploads/2020/04/CfOwFM7W8AAuFiR.jpg" alt="">
+            <div class="hover_capa">
+                <h3>Carricaturas</h3>
+                <p>Haz de tu chamarra un estio unico, con la caricatura que mas ames en este mundo, nosotros haremos tu sueño realidad</p>
+                
+            </div>
+    
+        </figure>
+       
+
+
+
+    </div>
+
+   
+
+
+</body>
+
+<footer>
+    <img src="https://ygo-assets-websites-legacy.yougov.net/cumulus_uploads/entry/2023-05-11/ai-technology-microchip-background-digital-tran.original.jpg?w=660"  class="Imagen_final">
+    <p class="copyright">&copy Copyright</p>
+</footer>
+   
+
+
+
+
+
