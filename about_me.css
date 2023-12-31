@@ -1,6 +1,6 @@
 .about_me{
     padding: 2.5rem;
-    background: url('https://media.tenor.com/tQ-_yFsQia4AAAAC/robots-soccer.gif') 100% 100%
+    background: url('https://b.fastcompany.net/multisite_files/coexist/imagecache/1280/poster/2013/07/1682635-poster-wired-gif2.gif') 100% 100%
     repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -68,6 +68,8 @@
     font-size: 18px;
 }
 
+
+
 .about_me__item::before {
     content: "\2022"; /* Bullet character */
     color: #FF5733; /* Bullet color */
@@ -78,6 +80,9 @@
 }
 
 
+.show {
+    display:block;
+}
 .about_me__final{
     color: black;
     font-size: 1.75rem;
@@ -101,4 +106,44 @@
 }
 .image-container:hover img {
     transform: scale(1.2);
+}
+
+
+
+.button_slide {
+    color: #000000;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 14px 28px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+  }
+
+@media only screen and (min-width: 600px) {
+    /* Estilos para escritorio */
+    .hide {
+        display: block;
+    }
+    
+    #hideText_Btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para móvil */
+    #hideText {
+        display: none;
+    }
 }
